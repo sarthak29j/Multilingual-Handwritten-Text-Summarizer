@@ -1,0 +1,1 @@
+# Multilingual-Handwritten-Text-Summarizer
