@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRT Project</title>
+        <style type="text/css">
+            #main-header{
+                text-align:center;
+                background-color: black;
+                color: white;
+                padding: 10px;
+            }
+            .container{
+                width:95%;
+                margin: auto;
+            }
+            body {
+                background-image: url('images/websiteback.jpg');
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container"
+        <!-- Headings -->
+        <header id="main-header">
+            <h1>Multilingual Handwritten Text Summarizer</h1>
+        </header>
+        
+        <!-- Paragraph -->
+        <p>
+            One of the most relevant today’s problems called information overloading has increased the necessity of more sophisticated and powerful information compression methods – summarizers.
+            There is a problem of searching for relevant documents from the number of documents available and absorbing relevant information from it. With ever growing media, who has the time to go through the entire book to decide how useful it is? It is particularly necessary for historical documents, archives, etc.
+            Recognition of images, including symbols, is one of the urgent tasks arising in various fields of human activity today. For example, it can be used in industry for automatic part recognition, in education for automated testing forms verification and in other fields. The free software products are mainly focused on the recognition of printed text, not handwritten. 
+            What if there is a way to reduce this data to a shorter, focused summary that captures the salient details so that we can quickly decide if the larger document contains the relevant information needed by us? 
+            For handwritten documents, manual summarization is not possible and automatic text summarization is the need of the hour.
+            <h4>Demonstration:</h4>
+            Summarization of text in the folowing handwritten document in french
+        </p>
+        <img src="images/sample3.jpg" alt="Image" width="300">
+        <br>
+        <SCRIPT>
+            function ShowAndHide() {
+                var x = document.getElementById('SectionName');
+                if (x.style.display == 'none') {
+                    x.style.display = 'block';
+                } else {
+                    x.style.display = 'none';
+                }
+            }
+        </SCRIPT>
+        <BUTTON ONCLICK="ShowAndHide()">Summarize</BUTTON>
+        <DIV ID="SectionName" STYLE="display:none">C’était une époque en Inde où il n’y avait pas de nourriture pour servir son énorme population, l’époque où la révolution youen était flanquée en 1968 par M.S Swaminathan, mais le temps est venu où il est nécessaire de sauver la nourriture du gaspillage. en raison de l’augmentation rapide du fonds d’attente de nourriture en Inde et à l’étranger. beaucoup de bons grains sont gaspillés dans lendia en raison du manque d’installations de stockage wiipropor et principalement en raison de la tache juive suasout de base de ce gaspillage est que dans la plupart des endroits en Inde et à l’étranger il y a une installation de stockage inappropriée de pittoresque que ce soit pendant son trampotation sur à la maison de ravageur</DIV>
+    </div>
+    </body>
+</html>
